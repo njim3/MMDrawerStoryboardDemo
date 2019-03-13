@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203E31DB2237559700D467A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E31DA2237559700D467A4 /* AppDelegate.m */; };
+		203E31E12237559700D467A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203E31DF2237559700D467A4 /* Main.storyboard */; };
+		203E31E32237559B00D467A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203E31E22237559B00D467A4 /* Assets.xcassets */; };
+		203E31E62237559B00D467A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203E31E42237559B00D467A4 /* LaunchScreen.storyboard */; };
+		203E31E92237559B00D467A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E31E82237559B00D467A4 /* main.m */; };
+		203E31F32237559B00D467A4 /* MMDrawerStoryboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E31F22237559B00D467A4 /* MMDrawerStoryboardDemoTests.m */; };
+		204EBA382238F0DC00ADB43C /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 204EBA372238F0DC00ADB43C /* MainVC.m */; };
+		49BF605CAEE3FA15C1EFA03E /* libPods-MMDrawerStoryboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09EFD6BA6EF53436D2DD70 /* libPods-MMDrawerStoryboardDemo.a */; };
+		E38F7846557B5762EFE5AA10 /* libPods-MMDrawerStoryboardDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F3D3B93AD1850B73DD9D3C /* libPods-MMDrawerStoryboardDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		203E31EF2237559B00D467A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203E31CE2237559700D467A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203E31D52237559700D467A4;
+			remoteInfo = MMDrawerStoryboardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		203E31D62237559700D467A4 /* MMDrawerStoryboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDrawerStoryboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		203E31D92237559700D467A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		203E31DA2237559700D467A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		203E31E02237559700D467A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		203E31E22237559B00D467A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		203E31E52237559B00D467A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		203E31E72237559B00D467A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203E31E82237559B00D467A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		203E31EE2237559B00D467A4 /* MMDrawerStoryboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDrawerStoryboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		203E31F22237559B00D467A4 /* MMDrawerStoryboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerStoryboardDemoTests.m; sourceTree = "<group>"; };
+		203E31F42237559B00D467A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204EBA362238F0DC00ADB43C /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		204EBA372238F0DC00ADB43C /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		4B2EF8FA0123776ED5D08FCD /* Pods-MMDrawerStoryboardDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawerStoryboardDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawerStoryboardDemoTests/Pods-MMDrawerStoryboardDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CFF629A776858369F006F3B /* Pods-MMDrawerStoryboardDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawerStoryboardDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawerStoryboardDemoTests/Pods-MMDrawerStoryboardDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		944A6715C5DDC04FCC4FE2F7 /* Pods-MMDrawerStoryboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawerStoryboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawerStoryboardDemo/Pods-MMDrawerStoryboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		94B1C9695E9C2179CDF344D4 /* Pods-MMDrawerStoryboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawerStoryboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawerStoryboardDemo/Pods-MMDrawerStoryboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9C09EFD6BA6EF53436D2DD70 /* libPods-MMDrawerStoryboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMDrawerStoryboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F3D3B93AD1850B73DD9D3C /* libPods-MMDrawerStoryboardDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMDrawerStoryboardDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		203E31D32237559700D467A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BF605CAEE3FA15C1EFA03E /* libPods-MMDrawerStoryboardDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E31EB2237559B00D467A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38F7846557B5762EFE5AA10 /* libPods-MMDrawerStoryboardDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203E31CD2237559700D467A4 = {
+			isa = PBXGroup;
+			children = (
+				203E31D82237559700D467A4 /* MMDrawerStoryboardDemo */,
+				203E31F12237559B00D467A4 /* MMDrawerStoryboardDemoTests */,
+				203E31D72237559700D467A4 /* Products */,
+				6F22960B6E2BD2C5771B68BE /* Pods */,
+				842DA38FCBF79666CA1505FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		203E31D72237559700D467A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				203E31D62237559700D467A4 /* MMDrawerStoryboardDemo.app */,
+				203E31EE2237559B00D467A4 /* MMDrawerStoryboardDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203E31D82237559700D467A4 /* MMDrawerStoryboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				203E31D92237559700D467A4 /* AppDelegate.h */,
+				203E31DA2237559700D467A4 /* AppDelegate.m */,
+				203E31DF2237559700D467A4 /* Main.storyboard */,
+				203E31E22237559B00D467A4 /* Assets.xcassets */,
+				203E31E42237559B00D467A4 /* LaunchScreen.storyboard */,
+				203E31E72237559B00D467A4 /* Info.plist */,
+				203E31E82237559B00D467A4 /* main.m */,
+				204EBA362238F0DC00ADB43C /* MainVC.h */,
+				204EBA372238F0DC00ADB43C /* MainVC.m */,
+			);
+			path = MMDrawerStoryboardDemo;
+			sourceTree = "<group>";
+		};
+		203E31F12237559B00D467A4 /* MMDrawerStoryboardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				203E31F22237559B00D467A4 /* MMDrawerStoryboardDemoTests.m */,
+				203E31F42237559B00D467A4 /* Info.plist */,
+			);
+			path = MMDrawerStoryboardDemoTests;
+			sourceTree = "<group>";
+		};
+		6F22960B6E2BD2C5771B68BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94B1C9695E9C2179CDF344D4 /* Pods-MMDrawerStoryboardDemo.debug.xcconfig */,
+				944A6715C5DDC04FCC4FE2F7 /* Pods-MMDrawerStoryboardDemo.release.xcconfig */,
+				4B2EF8FA0123776ED5D08FCD /* Pods-MMDrawerStoryboardDemoTests.debug.xcconfig */,
+				7CFF629A776858369F006F3B /* Pods-MMDrawerStoryboardDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		842DA38FCBF79666CA1505FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C09EFD6BA6EF53436D2DD70 /* libPods-MMDrawerStoryboardDemo.a */,
+				B7F3D3B93AD1850B73DD9D3C /* libPods-MMDrawerStoryboardDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		203E31D52237559700D467A4 /* MMDrawerStoryboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203E31F72237559B00D467A4 /* Build configuration list for PBXNativeTarget "MMDrawerStoryboardDemo" */;
+			buildPhases = (
+				08575520FA62A7D8AE7B3BB7 /* [CP] Check Pods Manifest.lock */,
+				203E31D22237559700D467A4 /* Sources */,
+				203E31D32237559700D467A4 /* Frameworks */,
+				203E31D42237559700D467A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawerStoryboardDemo;
+			productName = MMDrawerStoryboardDemo;
+			productReference = 203E31D62237559700D467A4 /* MMDrawerStoryboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		203E31ED2237559B00D467A4 /* MMDrawerStoryboardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203E31FA2237559B00D467A4 /* Build configuration list for PBXNativeTarget "MMDrawerStoryboardDemoTests" */;
+			buildPhases = (
+				3508338077C132C8ED4B3AB3 /* [CP] Check Pods Manifest.lock */,
+				203E31EA2237559B00D467A4 /* Sources */,
+				203E31EB2237559B00D467A4 /* Frameworks */,
+				203E31EC2237559B00D467A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203E31F02237559B00D467A4 /* PBXTargetDependency */,
+			);
+			name = MMDrawerStoryboardDemoTests;
+			productName = MMDrawerStoryboardDemoTests;
+			productReference = 203E31EE2237559B00D467A4 /* MMDrawerStoryboardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		203E31CE2237559700D467A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cnbm;
+				TargetAttributes = {
+					203E31D52237559700D467A4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					203E31ED2237559B00D467A4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 203E31D52237559700D467A4;
+					};
+				};
+			};
+			buildConfigurationList = 203E31D12237559700D467A4 /* Build configuration list for PBXProject "MMDrawerStoryboardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 203E31CD2237559700D467A4;
+			productRefGroup = 203E31D72237559700D467A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				203E31D52237559700D467A4 /* MMDrawerStoryboardDemo */,
+				203E31ED2237559B00D467A4 /* MMDrawerStoryboardDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		203E31D42237559700D467A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203E31E62237559B00D467A4 /* LaunchScreen.storyboard in Resources */,
+				203E31E32237559B00D467A4 /* Assets.xcassets in Resources */,
+				203E31E12237559700D467A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E31EC2237559B00D467A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08575520FA62A7D8AE7B3BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMDrawerStoryboardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3508338077C132C8ED4B3AB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMDrawerStoryboardDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203E31D22237559700D467A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204EBA382238F0DC00ADB43C /* MainVC.m in Sources */,
+				203E31E92237559B00D467A4 /* main.m in Sources */,
+				203E31DB2237559700D467A4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203E31EA2237559B00D467A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203E31F32237559B00D467A4 /* MMDrawerStoryboardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		203E31F02237559B00D467A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203E31D52237559700D467A4 /* MMDrawerStoryboardDemo */;
+			targetProxy = 203E31EF2237559B00D467A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		203E31DF2237559700D467A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203E31E02237559700D467A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		203E31E42237559B00D467A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203E31E52237559B00D467A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		203E31F52237559B00D467A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		203E31F62237559B00D467A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		203E31F82237559B00D467A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B1C9695E9C2179CDF344D4 /* Pods-MMDrawerStoryboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MVL5JLT;
+				INFOPLIST_FILE = MMDrawerStoryboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnbm.MMDrawerStoryboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		203E31F92237559B00D467A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944A6715C5DDC04FCC4FE2F7 /* Pods-MMDrawerStoryboardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MVL5JLT;
+				INFOPLIST_FILE = MMDrawerStoryboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnbm.MMDrawerStoryboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		203E31FB2237559B00D467A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2EF8FA0123776ED5D08FCD /* Pods-MMDrawerStoryboardDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MVL5JLT;
+				INFOPLIST_FILE = MMDrawerStoryboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnbm.MMDrawerStoryboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDrawerStoryboardDemo.app/MMDrawerStoryboardDemo";
+			};
+			name = Debug;
+		};
+		203E31FC2237559B00D467A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFF629A776858369F006F3B /* Pods-MMDrawerStoryboardDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69MVL5JLT;
+				INFOPLIST_FILE = MMDrawerStoryboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnbm.MMDrawerStoryboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDrawerStoryboardDemo.app/MMDrawerStoryboardDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203E31D12237559700D467A4 /* Build configuration list for PBXProject "MMDrawerStoryboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E31F52237559B00D467A4 /* Debug */,
+				203E31F62237559B00D467A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203E31F72237559B00D467A4 /* Build configuration list for PBXNativeTarget "MMDrawerStoryboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E31F82237559B00D467A4 /* Debug */,
+				203E31F92237559B00D467A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203E31FA2237559B00D467A4 /* Build configuration list for PBXNativeTarget "MMDrawerStoryboardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203E31FB2237559B00D467A4 /* Debug */,
+				203E31FC2237559B00D467A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 203E31CE2237559700D467A4 /* Project object */;
+}
